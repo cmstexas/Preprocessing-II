@@ -1,1 +1,69 @@
 // Navigation Styles here
+
+@import "mixins.less";
+
+.navsection{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    border-bottom: 2px dashed @navigation-border;
+
+}
+
+    .navmenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 2rem;
+        color: gray;
+        padding-top: 1rem;
+    }
+
+        .homeitem{
+            margin-left: 40rem;
+            margin-right: 3rem;
+        }
+
+        .aboutitem{
+            margin-right: 3rem;
+        }
+
+        .blogitem{
+            margin-right: 3rem;
+    }
+
+    .logodiv{
+        margin-left: 18rem;
+    }
+
+
+ //mobile responsiveness//
+
+@media(max-width: 500px){
+
+    .navsection{
+        display: flex;
+        flex-direction: column;
+    }
+        .homeitem{
+            margin-left: 5rem;
+            margin-right: -2rem;
+        }
+
+        .aboutitem{
+            margin-left: 1rem;
+            margin-right: -2rem;
+        }
+
+        .blogitem{
+            margin-left: 1rem;
+            margin-right: -2rem;
+        }
+
+        .contactitem{
+            margin-right: 2rem;
+        }
+
+  
+}
