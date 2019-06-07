@@ -340,28 +340,29 @@ h1 {
   }
   .content-section {
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
   }
   .text-content {
-    width: 100%;
+    width: 91vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
-  .content-sectioninverse-content {
+  .content-section .inverse-content {
     display: flex;
     flex-direction: column-reverse;
   }
   .img-content {
-    width: 100%;
+    width: 90vw;
     display: flex;
-    justify-content: center;
   }
   .content-pick {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90vw;
+  }
+  .destination {
+    width: 90vw;
   }
 }

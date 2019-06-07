@@ -132,40 +132,40 @@ header{
     margin-left: 2rem;
   }
 
- 
   
   .content-section{
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
   }
   
 
-  .text-content{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    .text-content{
+      width: 91vw;
+      display:flex;
+      flex-direction: column;
+    }
 
-  }
+    .content-section .inverse-content{
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
-  .content-sectioninverse-content{
-    display: flex;
-    flex-direction: column-reverse;
-  }
+    .img-content{
+      width: 90vw;
+      display:flex;
+    }
 
-  .img-content{
-    width: 100%;
-    display:flex;
-    justify-content: center;
+    .content-pick{
+      display:flex;
+      flex-direction: column;
+      width: 90vw;
+    
+    }
 
-  }
+    .destination{
+      width: 90vw;
 
-  .content-pick{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-  }
- 
+    }
 }
